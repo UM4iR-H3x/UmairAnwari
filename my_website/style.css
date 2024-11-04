@@ -1,0 +1,286 @@
+@font-face {
+    font-family: umair;
+    src: url(fonts/BebasNeue\ Regular.ttf);
+}
+#titlebar{
+    font-family: umair;
+}
+body{
+    margin: 0;
+}
+#topbar{
+    background-color: rgb(83, 83, 83);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    color: white;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+#logobar img{
+    width: 200PX;
+    margin: 15px 0px;
+    margin-bottom: 10px;
+}
+#navbar{
+    background-color: rgb(251, 0, 0);
+    padding: 0;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    padding-right: 35px;
+    
+    
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+ }
+ #programming{
+    
+    height: 500px;
+    background-position: center;
+    opacity: 0.5;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ #contact{
+    background-color: brown;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+ }
+ #section70{
+    width: 70%;
+    float: left;
+    font-size: 18px;
+ }
+ #section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 60px;
+ }
+ #ct-btn{
+    background-color: white;
+    color: brown;
+    padding: 15px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  ;
+
+ }
+
+#courses{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.red-padding{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 50px;
+    font-size: xx-large;
+    padding-bottom: 30px;
+}
+.SECTION33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+}
+.SECTION33 h2{
+    color: rgb(0, 0, 0);
+}
+
+#js{
+    height: 100px;
+    width: 100px;
+}
+#python{
+    height: 100px;
+    width: 100px;
+}
+#c{
+    height: 100px;
+    width: 100px;
+}
+#upanddown{
+    background-color: azure;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid black;
+    height: 50px;
+    padding-top: 30px;
+}
+#SECTION33 img{
+    height: 200px;
+    width: 200px;
+    
+}
+.readmore{
+        text-decoration: none;
+        color: brown;
+        font-size: 18px;
+        font-weight:initial;
+}
+#mainsec{
+    background-color: rgb(113, 11, 11);
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;;
+
+}
+#sec70{
+    width: 70%;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+}
+#sec30{
+    position: relative;
+    
+}
+#books{
+    width: 200px;
+    padding: 20px 0 20px 40px;
+    border: 1px solid black;
+    border-radius: 9999px;
+    
+}
+.sec30 svg{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0,-50);
+
+}
+#books:focus{
+    opacity: 1;
+    width: 300px;
+
+}
+#sec30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 110px;
+}
+ #headinfo{
+    text-align: center;
+    
+ }
+
+ #myinfo{
+    background-color: rgb(83, 83, 83);
+    
+    overflow: auto;
+ }
+ #div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    color: white;
+ }
+ #div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: white;
+    
+ }
+ #f-m ul{
+    list-style-type: none;
+    padding: 0;
+ }
+ #f-m li{
+        padding-bottom: 10px;
+ }
+ #f-m li a{
+    text-decoration: none;
+    color: rgb(244, 244, 244);
+ }
+ #socialmedia a li{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+}
+ #hack{
+    padding-left: 100px;
+ }
+  
+ #copyright{
+    background-color: rgb(14, 14, 14);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+ }
+
+ .form-sign{
+    border: 2px solid rgb(0, 0, 0);
+    width: 400px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 20px;
+        
+ }
+ .form-sign h2{
+    color: rgb(4, 4, 5);
+    font-size: 20px;
+ }
+ .inputs{
+    border: 1px solid rgb(0, 0, 1);
+    border-radius: 10px;
+    margin-bottom: 3px;
+    color: rgb(134, 134, 134);
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    
+}
+ #signtop{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 550px;
+        
+        
+        
+ }
+ #sig{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 15px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    
+    
+}
+
